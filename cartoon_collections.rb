@@ -7,9 +7,13 @@ def greet_characters(array)
   end
 end
 
+dwarves = ["Dopey", "Grumpy", "Bashful"]
+
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
   array.each_with_index{|val,index| puts "index: #{index} for #{val}" if val < 30}
 end
+
+list_dwarves(dwarves)
