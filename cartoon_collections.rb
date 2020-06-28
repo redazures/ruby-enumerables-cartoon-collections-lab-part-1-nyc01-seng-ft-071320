@@ -7,7 +7,7 @@ def greet_characters(array)
   end
 end
 
-dwarves = ["Dopey", "Grumpy", "Bashful"]
+#dwarves = ["Dopey", "Grumpy", "Bashful"]
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
