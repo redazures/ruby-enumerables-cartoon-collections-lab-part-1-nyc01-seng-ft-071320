@@ -16,4 +16,4 @@ def list_dwarves(array)
   array.each_with_index{|val,index| puts "#{index+1}. #{val}"}
 end
 
-list_dwarves(dwarves)
+#list_dwarves(dwarves)
